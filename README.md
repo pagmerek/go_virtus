@@ -14,6 +14,5 @@ for more detailed instructions.
 
 ## Methods
 CLI has 2 main methods
- * `loadConfig()` that returns Config structure loaded from `config.json` file.\
- * `startServer(filename string)` that starts listening on config.port with a file provided in the argument
- 
+ * `loadConfig()` that returns Config structure loaded from `config.json` file.
+ * `startServer(filename string)` that starts listening on config.port with a file provided in the argument. It handles http requests via `net/http` package
